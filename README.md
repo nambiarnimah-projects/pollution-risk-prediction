@@ -166,12 +166,12 @@ The application allows users to simulate environmental conditions and predict AQ
 
 Input values:
 
-PM2.5: 88.75  
-PM10: 81.11  
-NO2: 21.56  
+PM2.5: 41 
+PM10: 50  
+NO2: 17  
 SO2: 10.44  
 CO: 238 ppb  
-O3: 23.44  
+O3: 35 
 Temperature: 23  
 Precipitation: 0  
 Wind: 7.1  
@@ -180,6 +180,7 @@ Output:
 
 Predicted AQI: 112  
 Category: Moderate
+Actual AQI (on the day of testing): 111
 
 The prediction closely matches real-world AQI values, showing model reliability.
 
