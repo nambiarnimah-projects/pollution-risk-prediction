@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-model=joblib.load(r"C:\Users\Biju Nambiar\OneDrive\Desktop\da project\project 3(major)\aqi_model.pkl")
+model=joblib.load(r"aqi_model.pkl")
 def get_aqi_category(aqi):
     if aqi <= 50:
         return "Good", "green"
